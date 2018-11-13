@@ -1,14 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Barcode/QR Scanner
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <p>Scan to get barcode data and display them</p>
+ <button ion-button (click)="scan()">Scan Me</button>
+ <br>
+ <ion-input type="text" [(ngModel)]="encodeData"></ion-input>
+ <button ion-button (click)="encodeText()">Encode Text</button>
+ <div *ngIf="scanData">
+   <p>Scanned Text : </p>
+   <p>Scanned Format : </p>
+ </div>
 </ion-content>
