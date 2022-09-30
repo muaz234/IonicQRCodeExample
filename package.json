@@ -21,7 +21,7 @@
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@hapi/cryptiles": "^4.2.0",
-    "@hapi/hoek": "^8.2.1",
+    "@hapi/hoek": "^9.0.4",
     "@ionic-native/barcode-scanner": "^4.17.0",
     "@ionic-native/core": "~4.15.0",
     "@ionic-native/qr-scanner": "^4.17.0",
